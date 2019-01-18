@@ -1,0 +1,27 @@
+{
+  "name": "nyt-scraper",
+  "version": "1.0.0",
+  "description": "A New York Times article scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickmora/NYT-Scraper.git"
+  },
+  "author": "Nick Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickmora/NYT-Scraper/issues"
+  },
+  "homepage": "https://github.com/nickmora/NYT-Scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.4.4",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
+  }
+}
